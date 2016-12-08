@@ -5,6 +5,7 @@
 @import '../node_modules/coriolan-ui/coriolan-ui';
 @import 'vendor/icomoon';
 @import 'vendor/animate';
+@import 'vendor/bootstrap';
 
 // UI
 @import 'ui/ui-buttons';
@@ -14,6 +15,8 @@
 @import 'base';
 @import 'hero';
 @import 'features';
+@import 'menu';
+@import 'page';
 @import 'contents';
 @import 'contacts';
 @import 'footer';

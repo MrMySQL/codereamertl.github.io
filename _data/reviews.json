@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Anna",
+    "position": "Career Advisor",
+    "photo": "/assets/img/people/anna.jpg",
+    "review": "My work in the company consists in evaluating employees and in their development. But the paradox is that working with people I also constantly learn, develop, and become better. And among many other advantages, this one is the most important for me."
+  },
+  {
+    "name": "Ruslan",
+    "position": "IT Support Engineer",
+    "photo": "/assets/img/people/ruslan.jpg",
+    "review": "Thanks to the well-organized educational process for new employees and a friendly and open team, I quickly adapted to our company. After all, additional benefits have pretty contributed to it: flexible working hours, active rest (from outdoor events to gym training) and comfortable working conditions. There were no such benefits at my previous places of work. I am very glad to work in our great company."
+  },
+  {
+    "name": "Dmytro",
+    "position": "Technical Leader",
+    "photo": "/assets/img/people/dmytro.jpg",
+    "review": "I have been working at the company for over 3 years. I am sometimes asked why I didn’t change my job. Well, I believe that the promise of more interesting project or a slight increase in salary do not improve working conditions considerably, since any tasks become routine with time. Instead, working at Codereamer I always get decent salaries, flexible working hours, I work with great people who are always eager to help, cooperating with competent managers and pleasant customers."
+  },
+  {
+    "name": "Olena",
+    "position": "HR Specialist",
+    "photo": "/assets/img/people/olena.jpg",
+    "review": "For me Codereamer is a company of open opportunities where you can put a lot of ideas into action and feel yourself a part of a team of true professionals. However, in my work people I work with I like the most, because every day I get invaluable experience and a great deal of positive emotions."
+  },
+  {
+    "name": "Roman",
+    "position": "Project Manager",
+    "photo": "/assets/img/people/roman.jpg",
+    "review": "In the life of each of us there comes a moment when the inner voice is yelling: “It’s high time you changed something.” That’s how I got into Codereamer, and this change was one of the brightest in my life! An interesting, promising work, intelligent people who surround you, friendly team and professional management – these are the keywords I can describe our company with. Working here, I get the necessary knowledge, acquaintances and opportunities faster than a desire to obtain them! Join us!"
+  },
+  {
+    "name": "Olha",
+    "position": "Delivery Director",
+    "photo": "/assets/img/people/olha.jpg",
+    "review": "In my work at the company, the biggest value for me is communication with people — it’s what always adds positive attitude to ordinary work process. Team work is the most interesting because each of us has their own thoughts, own professional view points; but when you seem to know everything about your work, there is always someone from whom you can still learn a lot."
+  },
+  {
+    "name": "Taras",
+    "position": "Engineering Director",
+    "photo": "/assets/img/people/taras.jpg",
+    "review": "I like working in our Company because I can develop here professionally, communicate with many talented and interesting people, try my skills at something new, help others become successful. Codereamer is a company that is fast and quickly developing and it gives its employees a chance to grow together with it."
+  },
+  {
+    "name": "Alexander",
+    "position": "Solutions Architect",
+    "photo": "/assets/img/people/alex.jpg",
+    "review": "What do I like in Codereamer? This is a team with friendly atmosphere which is formed of highly skilled professionals, who can always learn something new, get practical skills. The company cares about the professional growth of employees, organizes seminars, workshops and meetings. It is worth mentioning that company’s management as well as management of development centers is approachable and tries to make work conditions more comfortable."
+  }
+]

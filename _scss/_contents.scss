@@ -7,7 +7,12 @@
 
     &:first-child {
       margin-top: 150px;
-    }}
+      margin-bottom: 150px;
+    }
+    &:last-child {
+      margin-bottom: 150px;
+    }
+  }
 
   .content-top-level-description {
     margin: 20px auto 0 auto;
@@ -22,6 +27,7 @@
     font-size: 16px;
     background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 72 74" xmlns="http://www.w3.org/2000/svg"> <path d="M33.464 0h37.952l-33.52 73.352H0" fill="#ededed" fill-rule="evenodd"/> </svg> ') no-repeat center;
     color: #000;
+    text-align: center;
   }
 
   .sub-content {
@@ -35,7 +41,7 @@
       color: #000;
     }
 
-    .sub-item{
+    .sub-item {
       h3 {
         position: relative;
 
@@ -47,7 +53,7 @@
           border-right: 7px solid transparent;
           border-top: 7px solid #d0d0d0;
           position: absolute;
-          top:10px;
+          top: 10px;
           margin-left: 10px;
         }
       }
@@ -66,6 +72,17 @@
     img {
       height: 60px;
       margin: 0 20px 0 20px;
+    }
+  }
+
+  &.services {
+    .content-top-level-title {
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+
+    .topic {
+      margin-top: 100px;
     }
   }
 }

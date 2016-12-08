@@ -1,0 +1,137 @@
+---
+layout: post
+lang: en
+name: services
+
+title: 'Codereamer Trade Limited'
+description: 'Codereamer Trade Limited'
+
+og-image: 'http://rooooster.com/content/codereamertl/home.jpg'
+---
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="l-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-8">
+                        <div class="ss_post_item_b">
+                            <div class="ss_post_item_i">
+                                <h4>Talent Management&nbsp;– professional career management</h4>
+                                <p>
+                                    People are the highest value of our company. The company is its people. Our
+                                    company pays attention to the improvement of the system of professional
+                                    development, motivation, performance evaluation of our colleagues and the
+                                    possibilities of their career growth.
+                                </p>
+                                <p> For this we have created a special unit – Talent Management, where
+                                    professional Career Counsellors work. From their first working days each of
+                                    our new employees comes under the wing of a Career Counsellor who helps a
+                                    newcomer to quickly adapt in our company.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                        <div class="l-sidebar l-sidebar-line">
+                            <h3 class="l-sidebar_title">Our employees’ reviews</h3>
+                            <div class="sidebar-slider js-flexsliderResponse">
+                                <ul class="slides">
+
+                                    {% for person in site.data.reviews %}
+                                    <li>
+                                        <div class="media media-response">
+                                            <div class="media_left">
+                                                <div class="media-response_image">
+                                                    <img class="img-responsive" src="{{ person.photo }}"
+                                                         draggable="false">
+                                                </div>
+                                            </div>
+                                            <div class="media_body">
+                                                <h3 class="media-response_title">{{ person.name }}</h3>
+                                                <span class="media-response_position">{{ person.position }}</span>
+                                            </div>
+                                        </div>
+                                        <p>{{ person.review }}</p>
+                                    </li>
+                                    {% endfor %}
+
+                                </ul>
+                                <ul class="flex-direction-nav">
+                                    <li><a class="flex-prev" href="#"></a></li>
+                                    <li><a class="flex-next" href="#"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block-blue">
+                    <h4>Main functions of Talent Management:</h4>
+                    <ul>
+                        <li><b>Job Description Management</b>. Exact and clear description of
+                            requirements to the candidate is the formula for future successful work. Talent
+                            Management&nbsp;unit is responsible for this.
+                        </li>
+                        <li><b>Onboarding</b><b>.&nbsp;</b>Our new colleagues begin their adaptation process in
+                            the company by getting acquainted with their Career Counsellor. He/she helps to
+                            accelerate the process of becoming a part of our company, tells about our corporate
+                            culture and other necessary things and is ready to answer all their
+                            questions.
+                        </li>
+                        <li><b>Performance Appraisal.</b><b>&nbsp;</b>At this meeting, an employee gets
+                            objective feedback on his/her performance and efficiency from the manager. The
+                            specifics of Performance Appraisal lie in combining the appraisal of personal and
+                            functional competencies of an employee. It is a Career Counsellor who combines all
+                            branches of the Talent Management process and accompanies an employee at every
+                            stage.
+                        </li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="card-talent">
+                            <div class="card-talent_image">
+                                <img src="/assets/img/ss-career-1.svg">
+                            </div>
+                            <span class="card-talent_text">To reflect the areas that should be improved</span>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="card-talent">
+                            <div class="card-talent_image">
+                                <img src="/assets/img/ss-career-2.svg">
+                            </div>
+                            <span class="card-talent_text">To direct a person down the right and desirable career path</span>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="card-talent">
+                            <div class="card-talent_image">
+                                <img src="/assets/img/ss-career-3.svg">
+                            </div>
+                            <span class="card-talent_text">To make an appropriate and clear action plan</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="block-purple">
+                    <ul>
+                        <li><b>Career &amp; Development Planning.</b> To have a successful career growth you
+                            need professional development, education and certification. Career Counsellor can
+                            advise our colleagues on the most effective ways of reaching set goals.
+                        </li>
+                        <li><b>Compensation Planning.</b><b>&nbsp;</b>Each employee can have an influence on the
+                            size of his/her<b>&nbsp;</b>compensation according to the developed system.
+                            Moreover, the additional activity in the company of our employees is valued and
+                            compensated accordingly.
+                        </li>
+                        <li><b>Codereamer Career Map.</b> This system contains all the steps, recommendations,
+                            descriptions of Codereamer’s career opportunities. A personal Career Counsellor will help
+                            not to get lost in all the opportunities and directions of professional career growth
+                            available at Codereamer.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

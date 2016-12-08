@@ -1,0 +1,25 @@
+<div class="contents services">
+    {% assign content = site.data.services %}
+    <div class="topic">
+        <div class="content-top-level">
+            <div class="content-top-level-title">
+                <span>{{ content.title }}</span>
+            </div>
+            <div class="content-top-level-description">{{ content.description }}</div>
+
+            {% for item in content['sub-items'] %}
+            <div class="sub-content">
+                <h3>{{ item.title }}</h3>
+                <p>{{ item.description }}</p>
+
+                {% for subitem in item['sub-items'] %}
+                <div class="sub-item">
+                    <h4>{{ subitem.title }}</h4>
+                    <p>{{ subitem.description }}</p>
+                </div>
+                {% endfor %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
